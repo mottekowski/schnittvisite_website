@@ -81,3 +81,5 @@ Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Änderung und kein Push
 
 - [x] Nutzertabelle übernommen: Cut & Leave 30 €, Waschen/Schnitt/Föhnen 35 €, Neuschnitt 45 €, Kopfmassage auf Anfrage, Färben/Tönen je 50 €, Kammsträhnen 45 €, Barttrimmen 20 €; alle Beträge mit vorgegebenem Zusatz „ab“.
 - [x] Neue Herrenpreise nach ausdrücklichem Deploy-Auftrag am 11.10.2026 veröffentlicht. Beide Domainvarianten: HTTPS/HTTP 200, Datei per SHA-256 identisch und alle acht Herrenpreise korrekt.
+
+- [x] Ausfüllbare Datenschutz-Checkliste mit Angaben zu Hosting, AVV, Protokollen, E-Mail und eigenem Umgang erstellt: docs/DATENSCHUTZ-CHECKLISTE.md. Anbieter-Anfragevorlage vorbereitet; keine Nachricht versendet.

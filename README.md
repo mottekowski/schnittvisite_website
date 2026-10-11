@@ -79,3 +79,5 @@ Alle sieben veröffentlichten Dateien: HTTP 200, SHA-256 identisch zum lokalen S
 - [x] Datenschutztext auf tatsächlich betriebenes Host-Europe-Hosting aktualisiert und Cookie-Prüfung übernommen. Datenschutz bleibt Entwurf: Nutzer meldet AVV, E-Mail-Anbieter und Log-Einstellungen als unbekannt. Keine Angaben dazu erfunden.
 - [ ] Tatsächliche Hosting-/E-Mail-Verarbeitung bestätigen und Datenschutz anschließend fertigstellen. Nach Host-Europe-FAQ im KIS unter Produktverwaltung > WebHosting > Konfigurieren > Statistiken & Logfiles die Log-Konfiguration prüfen; Vertragsstatus separat bestätigen.
 - [x] Änderungen dieser Prüfung auf ausdrücklichen Deploy-Auftrag am 11.10.2026 veröffentlicht. Vier HTML-Dateien übertragen; alle sieben aktiven Dateien öffentlich per HTTPS/HTTP 200 und SHA-256 geprüft. Datenschutz weiterhin Entwurf. Noch kein Git-Push für diese Änderung.
+
+Für die fehlenden Betriebsangaben zur Datenschutzerklärung: ausfüllbare Checkliste in docs/DATENSCHUTZ-CHECKLISTE.md. Antworten mit Quelle/Datum ergänzen; keine Zugangsdaten oder Kundendaten eintragen.
