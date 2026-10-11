@@ -6,7 +6,7 @@ Stand: 11.10.2026. Hoster Host Europe, Paket „WebHosting Basic [WebHosting 201
 
 - Angegebenes Paket: WebHosting 2016 Basic. Angegebener Pfad: `/www`; die tatsächliche Domainzuordnung im Kundenportal beziehungsweise Serverbestand verifizieren. Webserver, verschlüsseltes Protokoll und Port prüfen. Serveradresse nur aus dem Chat beziehungsweise sicherer Sitzung verwenden; keine Verbindungsdaten im Projekt hinterlegen.
 - SFTP-Anmeldedaten über einen sicheren Zugang außerhalb von Git und OneDrive verwenden. Hostschlüssel über eine unabhängige Quelle prüfen. Keine Passwörter in Skripte oder Projektdateien eintragen.
-- Exakte Namensschreibweise und offene Berufsangaben bestätigen; die Anschrift Dechenstraße 13, 53115 Bonn, Deutschland ist vom Nutzer bestätigt; Datenschutzentwürfe einschließlich Hosting, AVV, E-Mail-Dienst, Fristen und Cookie-Prüfung finalisieren.
+- Gabriele Zink, Dechenstraße 13, 53115 Bonn, Deutschland sowie Deutschland als Verleihungsland und Handwerkskammer zu Köln sind vom Nutzer bestätigt. Mögliche Identifikationsnummern und weitere einschlägige Angaben klären; Datenschutzentwürfe einschließlich Hosting, AVV, E-Mail-Dienst, Fristen und Cookie-Prüfung finalisieren.
 - Separate Freigabe für Testbereitstellung einholen. Nach abgeschlossenen Tests genaue Dateiliste, Serverregeln und Umschaltzeitpunkt zur ausdrücklichen Produktionsfreigabe vorlegen.
 
 ## 2. Sicherung vor jeder Serveränderung

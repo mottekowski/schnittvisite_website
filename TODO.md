@@ -28,8 +28,9 @@ Stand: 11.10.2026. Die lokalen Arbeitsschritte sind durchgeführt; Veröffentlic
 ## 3. Impressum
 
 - [x] Geschäftsanschrift vom Nutzer bestätigt: Dechenstraße 13, 53115 Bonn, Deutschland.
-- [ ] Exakte Namensschreibweise bestätigen: Nutzer nennt „Gabriel Zink“, bisheriger Entwurf „Gabriele Zink“. Keine der Schreibweisen ungeprüft finalisieren.
-- [ ] Verleihungsland und gegebenenfalls erforderliche USt-/Wirtschafts-ID oder weitere einschlägige Angaben klären.
+- [x] Vollständiger Anbietername vom Nutzer bestätigt: Gabriele Zink. In Impressum und Datenschutzentwurf übernommen.
+- [x] Verleihungsland der Berufsbezeichnung vom Nutzer bestätigt: Deutschland. Im Impressum ergänzt.
+- [ ] Gegebenenfalls erforderliche USt-/Wirtschafts-ID oder weitere einschlägige Angaben klären.
 - [x] Kammerzugehörigkeit und Berufsbezeichnung laut Nutzer bestätigt; Impressum weiterhin deutlich als Entwurf behandelt und mit eigener Beschreibung/noindex versehen.
 
 ## 4. Hosting und Datenschutz
