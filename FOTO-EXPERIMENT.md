@@ -3,7 +3,7 @@
 Werkzeug: integriertes Imagegen, keine CLI/API-Zugangsdaten.
 Original: `dist/assets/gaby.jpg`; Variante: `dist/assets/gaby-entspannt.png`.
 Ausgangsstand: `main`, Commit `111b3ca`; Experiment: `experiment/gaby-entspannter`.
-Die Variante ist lokal eingebunden, noch nicht zur Übernahme bestätigt und nicht veröffentlicht. Ergebnis visuell geprüft; die Wirkung im Website-Zuschnitt ist noch vom Nutzer zu beurteilen.
+Die Variante wurde vom Nutzer freigegeben und in `main` übernommen. Sie ist lokal eingebunden und nicht veröffentlicht. Ergebnis visuell geprüft; Originalfoto und vorheriger Stand bleiben erhalten.
 
 Verwendeter Prompt:
 

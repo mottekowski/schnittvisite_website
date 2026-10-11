@@ -33,9 +33,9 @@ Stand: 11.10.2026
 
 Entschieden: vorhandene HTML/CSS-Lösung und Bordeaux-Design weiterverwenden; zunächst bisheriges Hosting anstreben. Keine neue Website-Variante, keine zusätzlichen Abhängigkeiten und keine Veröffentlichung bei dieser Bestandsaufnahme.
 
-## Fotoexperiment (noch nicht übernommen)
+## Fotovariante (freigegeben)
 
 - Ausgangsstand inklusive Damenpreise auf `main` in Commit `111b3ca` gesichert.
 - Branch: `experiment/gaby-entspannter`. Variante `dist/assets/gaby-entspannt.png` mit integriertem Imagegen erstellt und lokal eingebunden; Original `dist/assets/gaby.jpg` bleibt erhalten.
-- Entscheidung zur Übernahme offen. Zurück zum bisherigen Stand: nach Sicherung des Experiments `git switch main`. Kein Push und keine Veröffentlichung.
+- [x] Nutzerfreigabe zur Übernahme erhalten; Experiment per Fast-forward in `main` übernommen. Originalfoto und vorheriger Stand `111b3ca` bleiben erhalten. Kein Push und keine Veröffentlichung.
 - Prompt und Herkunft: `FOTO-EXPERIMENT.md`.

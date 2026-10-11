@@ -49,3 +49,7 @@ Zunächst ist der bisherige Hosting-Anbieter vorgesehen; Anbieter, Zugriff, Doku
 6. Direkt danach Haupt-/Unterseiten, Weiterleitungen, HTTPS, Telefon-/E-Mail-Links und bestehenden E-Mail-Betrieb prüfen. Bei Fehlern alte Dateien und Serverkonfiguration aus der Sicherung wiederherstellen und erneut prüfen.
 
 Offene Punkte und Prüfstatus stehen in `TODO.md`; verbindliche Arbeitsregeln in `AGENTS.md`.
+
+## Freigegebene Fotovariante
+
+Nach Nutzerfreigabe ist `dist/assets/gaby-entspannt.png` auf der Startseite eingebunden. Das Original `dist/assets/gaby.jpg` bleibt erhalten. Herkunft und Prompt stehen in `FOTO-EXPERIMENT.md`. Die Übernahme in `main` ist keine Veröffentlichung.
