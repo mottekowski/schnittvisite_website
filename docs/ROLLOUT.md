@@ -1,12 +1,12 @@
 # Roll-out bei Host Europe
 
-Stand: 11.10.2026. Hoster Host Europe und Zugangsart SFTP vom Nutzer bestätigt. Kein Zugang hergestellt, keine Dateien auf dem Server geändert und keine Testbereitstellung veröffentlicht.
+Stand: 11.10.2026. Hoster Host Europe, Paket „WebHosting Basic [WebHosting 2016 Basic]“ und Webspace-Pfad `/www` vom Nutzer angegeben. Zunächst wurde SFTP, zuletzt FTP genannt; das tatsächlich verfügbare verschlüsselte Protokoll bleibt zu prüfen. Kein Zugang hergestellt, keine Dateien auf dem Server geändert und keine Testbereitstellung veröffentlicht.
 
 ## 1. Voraussetzung und Freigaben
 
-- Pakettyp (Classic WebHosting, cPanel, Server oder anderes), SFTP-Hostname/Port, Dokumentwurzel, Domainzuordnung und Webserver ermitteln. Host Europe betreibt verschiedene Produkte; Einstellungen nicht zwischen Produkten übertragen.
+- Angegebenes Paket: WebHosting 2016 Basic. Angegebener Pfad: `/www`; die tatsächliche Domainzuordnung im Kundenportal beziehungsweise Serverbestand verifizieren. Webserver, verschlüsseltes Protokoll und Port prüfen. Serveradresse nur aus dem Chat beziehungsweise sicherer Sitzung verwenden; keine Verbindungsdaten im Projekt hinterlegen.
 - SFTP-Anmeldedaten über einen sicheren Zugang außerhalb von Git und OneDrive verwenden. Hostschlüssel über eine unabhängige Quelle prüfen. Keine Passwörter in Skripte oder Projektdateien eintragen.
-- Anbietername/Anschrift und offene Berufsangaben bestätigen; Datenschutzentwürfe einschließlich Hosting, AVV, E-Mail-Dienst, Fristen und Cookie-Prüfung finalisieren.
+- Exakte Namensschreibweise und offene Berufsangaben bestätigen; die Anschrift Dechenstraße 13, 53115 Bonn, Deutschland ist vom Nutzer bestätigt; Datenschutzentwürfe einschließlich Hosting, AVV, E-Mail-Dienst, Fristen und Cookie-Prüfung finalisieren.
 - Separate Freigabe für Testbereitstellung einholen. Nach abgeschlossenen Tests genaue Dateiliste, Serverregeln und Umschaltzeitpunkt zur ausdrücklichen Produktionsfreigabe vorlegen.
 
 ## 2. Sicherung vor jeder Serveränderung
@@ -51,3 +51,5 @@ Stand: 11.10.2026. Hoster Host Europe und Zugangsart SFTP vom Nutzer bestätigt.
 - [Host Europe: Vertrag zur Auftragsverarbeitung](https://www.hosteurope.de/faq/vertrag-und-rechnungen/vertrag/adv-vertrag)
 
 Diese Dokumentation bestätigt keine konkrete Log-Aufbewahrungsdauer, keinen abgeschlossenen AVV und keinen tatsächlichen Serverstandort des gebuchten Pakets.
+
+[Host Europe: SFTP und FTPES](https://www.hosteurope.de/faq/webhosting/hochladen-von-webinhalten-ftp/ftp-verschluesselt-uebertragen): SFTP verwendet den SSH-Zugang; FTPES ist die TLS-verschlüsselte FTP-Variante. Die richtige Verbindung für dieses Paket muss anhand des Kundenportals geprüft werden.

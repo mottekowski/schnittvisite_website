@@ -27,13 +27,15 @@ Stand: 11.10.2026. Die lokalen Arbeitsschritte sind durchgeführt; Veröffentlic
 
 ## 3. Impressum
 
-- [ ] Vollständigen Anbietername und Geschäftsanschrift bestätigen; bisherigen Entwurf nicht als Quelle der Bestätigung behandeln.
+- [x] Geschäftsanschrift vom Nutzer bestätigt: Dechenstraße 13, 53115 Bonn, Deutschland.
+- [ ] Exakte Namensschreibweise bestätigen: Nutzer nennt „Gabriel Zink“, bisheriger Entwurf „Gabriele Zink“. Keine der Schreibweisen ungeprüft finalisieren.
 - [ ] Verleihungsland und gegebenenfalls erforderliche USt-/Wirtschafts-ID oder weitere einschlägige Angaben klären.
 - [x] Kammerzugehörigkeit und Berufsbezeichnung laut Nutzer bestätigt; Impressum weiterhin deutlich als Entwurf behandelt und mit eigener Beschreibung/noindex versehen.
 
 ## 4. Hosting und Datenschutz
 
-- [ ] Genaues Host-Europe-Paket, SFTP-Hostname/Port, sicher bereitgestellten Zugang, Dokumentwurzel und Webserver klären. Keine Anmeldedaten in Projekt, Git oder OneDrive speichern.
+- [x] Paket „WebHosting Basic [WebHosting 2016 Basic]“ und Webspace-Pfad `/www` vom Nutzer angegeben. Serveradresse liegt im Chat vor; keine Verbindungsdaten in Projektdateien gespeichert.
+- [ ] Domainzuordnung zu `/www`, Webserver und verschlüsseltes Übertragungsprotokoll/Port prüfen. Zunächst SFTP, zuletzt FTP genannt; FTP- und SSH/SFTP-Zugang nicht gleichsetzen. Sicheren Zugang außerhalb von Projekt/Git/OneDrive bereitstellen.
 - [ ] Paketkonfiguration prüfen: Log-Datenarten/Fristen, Verarbeitungsort, AVV, Unterauftragnehmer, mögliche Drittlandübermittlungen, Cookie-/Speicherzugriffe und E-Mail-Anbieter. Öffentliche Provider-Dokumentation belegt keine individuellen Einstellungen.
 - [x] Eigene Datenschutzseite mit Cookie-Abschnitt als gekennzeichneten Entwurf vorbereitet und im Footer verlinkt; alten Datenschutzlink ersetzt. Keine Speicherfristen oder abgeschlossenen Verträge erfunden.
 - [x] Cookie-Hinweise verlinkt. Lokal keine Set-Cookie-Header beobachtet; Website-Code enthält keine Skripte, Analysewerkzeuge, Formulare oder Browser-Speicherung. Keine Aussage über ungeprüftes Zielhosting.
