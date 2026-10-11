@@ -1,0 +1,72 @@
+{
+  "checkedOn": "2026-10-11",
+  "scope": "Über öffentliche HTML-Links von der Startseite erreichbare URLs; keine vollständige serverseitige Inventur.",
+  "pages": [
+    {
+      "url": "https://www.schnittvisite.com/",
+      "status": 200,
+      "title": "Der mobile Friseur in Bonn - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/"
+    },
+    {
+      "url": "https://www.schnittvisite.com/index.html",
+      "status": 200,
+      "title": "Der mobile Friseur in Bonn - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/index.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/phil.html",
+      "status": 200,
+      "title": "Philosophie  - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/phil.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/d.html",
+      "status": 200,
+      "title": "Top Preise für Damen - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/d.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/h.html",
+      "status": 200,
+      "title": "Top Preise für Herren - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/h.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/k.html",
+      "status": 200,
+      "title": "Top Preise für den Nachwuchs - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/k.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/div.html",
+      "status": 200,
+      "title": "Sonstige Dienstleistungen - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/div.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/hvl.html",
+      "status": 200,
+      "title": "Haarverlängerung in Bonn - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/hvl.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/s-b.html",
+      "status": 200,
+      "title": "Strähnen in Bonn - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/s-b.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/braut.html",
+      "status": 200,
+      "title": "Brautfrisuren - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/braut.html"
+    },
+    {
+      "url": "https://www.schnittvisite.com/dgsvo.html",
+      "status": 200,
+      "title": "Datenschutzhinweise - Schnittvisite",
+      "finalUrl": "https://www.schnittvisite.com/dgsvo.html"
+    }
+  ]
+}

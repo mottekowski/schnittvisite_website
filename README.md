@@ -5,7 +5,7 @@ Statische HTML/CSS-Website, ursprünglich erstellt am 15.09.2026. Am 11.10.2026 
 - Arbeitsverzeichnis: `C:\Users\chzin\OneDrive - Schnittvisite\SV\Website`
 - Bisherige Website: https://www.schnittvisite.com
 - Ausgangsversion in Sites: https://schnittvisite-gaby.mottekowski.chatgpt.site (Zugriff laut Sites auf Eigentümer beschränkt)
-- Dateien: `dist/index.html`, `dist/impressum.html`, `dist/style.css`, `dist/assets/gaby.jpg`
+- Aktuelle Dateien: `dist/index.html`, `dist/impressum.html`, `dist/datenschutz.html`, `dist/cookie-hinweise.html`, `dist/style.css`, `dist/assets/gaby-entspannt.webp`. Originalfoto und PNG-Variante bleiben zur Nachvollziehbarkeit erhalten.
 - Importierter Ausgangscommit: `9d39f06c3bba36683ffec60a0362e41f24188fd0`
 - `.openai/hosting.json` ordnet den bestehenden Sites-Eintrag zu; es ist keine Konfiguration des bisherigen Hosting-Anbieters.
 
@@ -15,10 +15,10 @@ PowerShell im Arbeitsverzeichnis öffnen. Ein vorhandener Python-3-Interpreter k
 
 ```powershell
 Set-Location -LiteralPath 'C:\Users\chzin\OneDrive - Schnittvisite\SV\Website'
-python -m http.server 8000 --bind 127.0.0.1 --directory dist
+& 'C:\Users\chzin\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m http.server 8000 --bind 127.0.0.1 --directory dist
 ```
 
-Danach `http://127.0.0.1:8000/` im Browser öffnen; mit Strg+C stoppen. Falls `python` nur den Windows-Installationsalias öffnet, einen vorhandenen echten Python-Interpreter verwenden. Der Vorschau-Start wurde bei der Bestandsaufnahme noch nicht geprüft. Dokumentwurzel muss `dist` sein, da CSS und Bild mit absoluten Website-Pfaden verlinkt sind; direktes Öffnen der HTML-Datei ist dafür ungeeignet.
+Danach `http://127.0.0.1:8000/` im Browser öffnen; mit Strg+C stoppen. Falls `python` nur den Windows-Installationsalias öffnet, einen vorhandenen echten Python-Interpreter verwenden. Die Vorschau läuft und wurde per HTTP und Browser geprüft. Dokumentwurzel muss `dist` sein, da CSS und Bild mit absoluten Website-Pfaden verlinkt sind; direktes Öffnen der HTML-Datei ist dafür ungeeignet.
 
 ## Herkunft und Inhalt
 
@@ -35,11 +35,11 @@ Telefon 0174 / 344 76 77, E-Mail gaby@schnittvisite.com, Bonn und Umgebung sowie
 
 Der eingesehene Quellcode enthält keine Skripte, Formulare, Analysewerkzeuge, externen Schriftendienste oder Browserspeicherung. Preislisten verwenden native `details`-Elemente. Hosting kann zusätzliche Zugriffskontrollen und Protokollierung mitbringen.
 
-Das Impressum ist ausdrücklich ein Entwurf. Laut ursprünglicher Dokumentation stammt die Anschrift aus der alten Datenschutzseite; der vollständige Name beruht teilweise auf früherem Nutzerkontext und die Kammerzuordnung wurde aus der Bonner Anschrift abgeleitet. Diese Angaben sind hier nicht unabhängig bestätigt. Verleihungsland, mögliche Identifikationsnummern und weitere einschlägige Angaben bleiben offen. Die verlinkte alte Datenschutzseite ersetzt keine eigene Erklärung für die neue Technik und das endgültige Hosting.
+Das Impressum ist ausdrücklich ein Entwurf. Laut ursprünglicher Dokumentation stammt die Anschrift aus der alten Datenschutzseite; der vollständige Name beruht teilweise auf früherem Nutzerkontext und die Kammerzuordnung wurde aus der Bonner Anschrift abgeleitet. Kammerzugehörigkeit und Berufsbezeichnung wurden inzwischen vom Nutzer bestätigt. Vollständiger Anbietername und Geschäftsanschrift bleiben unbestätigt. Verleihungsland, mögliche Identifikationsnummern und weitere einschlägige Angaben bleiben offen. Eine eigene Datenschutzseite ist nun als sichtbar gekennzeichneter Entwurf verlinkt; der alte Datenschutzlink wurde ersetzt. Hosting- und Verarbeitungsdetails bleiben zu ergänzen.
 
 ## Veröffentlichung und Rückfallplan
 
-Zunächst ist der bisherige Hosting-Anbieter vorgesehen; Anbieter, Zugriff, Dokumentwurzel und Weiterleitungsmechanismus sind offen. Keine Veröffentlichung, DNS-/Hosting-Änderung oder Ersetzung ohne ausdrückliche Nutzerfreigabe.
+Host Europe und SFTP-Zugang sind vom Nutzer bestätigt. Paket, sicherer Zugang, Dokumentwurzel und Weiterleitungsmechanismus bleiben offen. Der konkrete Ablauf steht in `docs/ROLLOUT.md`. Keine Veröffentlichung, DNS-/Hosting-Änderung oder Ersetzung ohne ausdrückliche Nutzerfreigabe.
 
 1. Hosting und E-Mail-Zuständigkeit klären. Aktuelle Website einschließlich Serverkonfiguration sichern; Wiederherstellbarkeit prüfen. Sicherungen außerhalb des auszuliefernden `dist`-Ordners ablegen. Zugangsdaten bleiben außerhalb von Projekt, Git und OneDrive.
 2. Alte URLs inventarisieren und passende Weiterleitungen abstimmen. Nach Möglichkeit Domain, Nameserver und Mail-Konfiguration beibehalten; MX, SPF, DKIM und DMARC bei einer später notwendigen Änderung gesondert sichern und erhalten.
@@ -52,4 +52,12 @@ Offene Punkte und Prüfstatus stehen in `TODO.md`; verbindliche Arbeitsregeln in
 
 ## Freigegebene Fotovariante
 
-Nach Nutzerfreigabe ist `dist/assets/gaby-entspannt.png` auf der Startseite eingebunden. Das Original `dist/assets/gaby.jpg` bleibt erhalten. Herkunft und Prompt stehen in `FOTO-EXPERIMENT.md`. Die Übernahme in `main` ist keine Veröffentlichung.
+Nach Nutzerfreigabe wurde die PNG-Fotovariante übernommen; auf der Startseite ist jetzt ihre optimierte WebP-Fassung `dist/assets/gaby-entspannt.webp` (rund 169 KB) eingebunden. Das Original `dist/assets/gaby.jpg` bleibt erhalten. Herkunft und Prompt stehen in `FOTO-EXPERIMENT.md`. Die Übernahme in `main` ist keine Veröffentlichung.
+
+## Cookie-Hinweise
+
+`dist/cookie-hinweise.html` enthält einen verlinkten Entwurf zu Cookies und ähnlichen Technologien. Der eigene Code nutzt keine Cookies, Analysewerkzeuge oder Browser-Speicherung. Das endgültige Hosting ist noch zu prüfen; deshalb ist dies keine fertige Datenschutzerklärung. Es wurde kein Einwilligungsbanner ergänzt. Die Entwurfsseite enthält `noindex`, das bei einer späteren Finalisierung erneut zu beurteilen ist.
+
+## Prüfstand und Veröffentlichung
+
+`docs/PRUEFBERICHT.md` dokumentiert lokale Browser-, Tastatur-, Kontrast- und Linkprüfungen. `docs/WEITERLEITUNGEN.md` enthält die 11 öffentlich erreichbaren Alt-URLs mit Zielzuordnung; unbekannte Serverdateien bleiben zu erfassen. `docs/ROLLOUT.md` beschreibt Sicherung, Testbereitstellung, Umschaltung und Rückfall bei Host Europe. Rechtliche Texte sind noch Entwürfe; kein Upload, Push oder DNS-Wechsel wurde durchgeführt. Für den Roll-out nur die im Roll-out-Dokument genannten referenzierten Dateien übertragen, nicht den gesamten Projektordner.

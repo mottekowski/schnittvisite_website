@@ -1,0 +1,80 @@
+[
+  {
+    "Name": "schnittvisite.com",
+    "Type": 1,
+    "IPAddress": "5.35.225.197",
+    "NameExchange": null,
+    "Preference": null,
+    "NameHost": null,
+    "Strings": null
+  },
+  {
+    "Name": "schnittvisite.com",
+    "Type": 28,
+    "IPAddress": "2a01:488:42:1000:50ed:84c5:9f:37d3",
+    "NameExchange": null,
+    "Preference": null,
+    "NameHost": null,
+    "Strings": null
+  },
+  {
+    "Name": "schnittvisite.com",
+    "Type": 15,
+    "IPAddress": null,
+    "NameExchange": "mx0.schnittvisite.com",
+    "Preference": 50,
+    "NameHost": null,
+    "Strings": null
+  },
+  {
+    "Name": "schnittvisite.com",
+    "Type": 2,
+    "IPAddress": null,
+    "NameExchange": null,
+    "Preference": null,
+    "NameHost": "ns22.domaincontrol.com",
+    "Strings": null
+  },
+  {
+    "Name": "schnittvisite.com",
+    "Type": 2,
+    "IPAddress": null,
+    "NameExchange": null,
+    "Preference": null,
+    "NameHost": "ns21.domaincontrol.com",
+    "Strings": null
+  },
+  {
+    "Name": "schnittvisite.com",
+    "Type": 16,
+    "IPAddress": null,
+    "NameExchange": null,
+    "Preference": null,
+    "NameHost": null,
+    "Strings": [
+      "j36p9nbmipg9jja5dmu5nhj0nq"
+    ]
+  },
+  {
+    "Name": "schnittvisite.com",
+    "Type": 16,
+    "IPAddress": null,
+    "NameExchange": null,
+    "Preference": null,
+    "NameHost": null,
+    "Strings": [
+      "MS=ms40771958"
+    ]
+  },
+  {
+    "Name": "schnittvisite.com",
+    "Type": 16,
+    "IPAddress": null,
+    "NameExchange": null,
+    "Preference": null,
+    "NameHost": null,
+    "Strings": [
+      "v=spf1 a mx include:spf.server-he.de -all"
+    ]
+  }
+]
