@@ -31,7 +31,7 @@ Quellen laut übernommener Dokumentation:
 - Bisheriger Datenschutz: https://www.schnittvisite.com/dgsvo.html
 - Originalfoto: https://www.schnittvisite.com/images/Gaby_1.jpg (lokal unter `dist/assets/gaby.jpg`)
 
-Telefon 0174 / 344 76 77, E-Mail gaby@schnittvisite.com, Bonn und Umgebung sowie Montag bis Freitag 10:00–18:00 Uhr und auf Anfrage wurden am 11.10.2026 mit der bisherigen öffentlichen Startseite abgeglichen. Gaby muss die Aktualität vor Freigabe bestätigen, ebenso alle Preise und Qualifikationen. Die Terminzeit wurde anschließend auf Nutzeranweisung auf Montag bis Freitag 10:00–17:00 Uhr und auf Anfrage geändert. Haarverlängerung und Dauerwelle wurden aus dem Angebot der neuen Website entfernt. Übernommene Preisformulierungen wie „ab … bis …“ sind noch abzustimmen.
+Telefon 0174 / 344 76 77, E-Mail gaby@schnittvisite.com, Bonn und Umgebung sowie Montag bis Freitag 10:00–18:00 Uhr und auf Anfrage wurden am 11.10.2026 mit der bisherigen öffentlichen Startseite abgeglichen. Gaby muss die Aktualität vor Freigabe bestätigen, ebenso alle Preise und Qualifikationen. Die Terminzeit wurde anschließend auf Nutzeranweisung auf Montag bis Freitag 10:00–17:00 Uhr und auf Anfrage geändert. Haarverlängerung und Dauerwelle wurden aus dem Angebot der neuen Website entfernt. Damenpreise wurden anschließend nach der neuen Nutzertabelle aktualisiert und „Eindrehen“ entfernt. Übernommene Preisformulierungen wie „ab … bis …“ sind noch abzustimmen.
 
 Der eingesehene Quellcode enthält keine Skripte, Formulare, Analysewerkzeuge, externen Schriftendienste oder Browserspeicherung. Preislisten verwenden native `details`-Elemente. Hosting kann zusätzliche Zugriffskontrollen und Protokollierung mitbringen.
 

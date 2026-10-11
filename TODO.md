@@ -12,6 +12,8 @@ Stand: 11.10.2026
 
 ## Anpassungen auf Nutzeranweisung
 
+- [x] Damenpreise nach neuer Nutzertabelle aktualisiert, „Eindrehen“ entfernt und alle 15 Positionen mit der Vorgabe abgeglichen.
+
 - [x] Foto-Schriftzug „Deine Friseurin“ entfernt.
 - [x] Haarverlängerung inklusive Beratungsschaltfläche und Erwähnungen in Seitenbeschreibungen entfernt; Leistungsnummerierung und Desktop-Raster auf drei Angebote angepasst.
 - [x] Dauerwelle aus der Preisliste entfernt.
@@ -20,7 +22,7 @@ Stand: 11.10.2026
 
 ## Nächste Arbeit und offene Entscheidungen
 
-- [ ] Lokale Vorschau starten; Desktop und Smartphone sowie Tastatur, Kontraste, Preislisten, Bilder, Kontaktlinks, Metadaten und interne Links prüfen. Noch keine Browserprüfung durchgeführt.
+- [ ] Lokale Vorschau läuft unter http://127.0.0.1:8000/; Desktop und Smartphone sowie Tastatur, Kontraste, Preislisten, Bilder, Kontaktlinks, Metadaten und interne Links prüfen. Noch keine Browserprüfung durchgeführt.
 - [ ] Gaby bestätigt Kontaktdaten, Terminzeiten, Preise, Qualifikation seit 2009 sowie Produkt-/Markenangaben und Fotoverwendung.
 - [ ] Impressum: vollständiger Anbietername, Geschäftsanschrift, tatsächliche Kammerzugehörigkeit, Verleihungsland und gegebenenfalls erforderliche Identifikationsnummern klären. Übernommene Annahmen nicht als bestätigt behandeln.
 - [ ] Bisherigen Hosting-Anbieter, sicheren Zugriff, Dokumentwurzel, Servertechnik, Protokollierung/Log-Aufbewahrung und E-Mail-Betrieb klären. Keine Zugangsdaten hier eintragen.
