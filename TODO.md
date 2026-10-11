@@ -18,19 +18,22 @@ Stand: 11.10.2026. Die lokalen Arbeitsschritte sind durchgeführt; Veröffentlic
 - [x] Foto ohne neue Generierung auf WebP optimiert: 168.638 statt 2.477.391 Bytes bei gleicher Auflösung; etwa 93,2 % weniger. Original bleibt erhalten.
 - [ ] Echte iOS-/Android-Geräte einschließlich Touch, Zoom, Querformat und Übergabe an Telefon-/E-Mail-App prüfen. Derzeit nur simulierte Browserbreiten geprüft.
 - [ ] Screenreader und weitere Browser sowie abschließende Barrierefreiheitsprüfung ergänzen.
+- [x] Konkrete Abnahmeliste für echte Geräte, weitere Barrierefreiheitsprüfungen, Inhaltsfreigabe und Hosting-Voraussetzungen vorbereitet: docs/ABNAHME.md. Die lokale Loopback-Vorschau ist auf Handys nicht erreichbar; keine Netzwerkfreigabe eingerichtet.
 
 ## 2. Inhalt bestätigen
 
 - [x] Nutzer bestätigt Host Europe, Zugangsart SFTP, Handwerkskammer zu Köln, Friseurmeisterin sowie Goldwell und Alterna. Beide Produktmarken sind genannt.
-- [ ] Aktualität von Telefon/E-Mail/Einsatzgebiet, Herren-/Kinder-/Zusatzpreisen, Qualifikation seit 2009 und Fotoverwendungsrechten bestätigen. Damenpreise und geänderte Terminzeiten wurden ausdrücklich vorgegeben; übrige Preise nicht pauschal als bestätigt markieren.
-- [ ] Formulierungen „ab … bis …“ sowie Steuerangabe mit Gaby abschließend abstimmen.
+- [x] Nutzer bestätigt Telefon 0174 / 344 76 77, gaby@schnittvisite.com, Bonn und Umgebung, Friseurmeisterin seit 2009, Fotoverwendungsrechte sowie aktuelle Herren-/Kinder-/Zusatzpreise. Damenpreise und geänderte Terminzeiten wurden bereits ausdrücklich vorgegeben.
+- [x] Preise einschließlich Mehrwertsteuer vom Nutzer bestätigt.
+- [x] Preisformulierungen „ab … bis …“ vom Nutzer ausdrücklich bestätigt.
 
 ## 3. Impressum
 
 - [x] Geschäftsanschrift vom Nutzer bestätigt: Dechenstraße 13, 53115 Bonn, Deutschland.
 - [x] Vollständiger Anbietername vom Nutzer bestätigt: Gabriele Zink. In Impressum und Datenschutzentwurf übernommen.
 - [x] Verleihungsland der Berufsbezeichnung vom Nutzer bestätigt: Deutschland. Im Impressum ergänzt.
-- [ ] Gegebenenfalls erforderliche USt-/Wirtschafts-ID oder weitere einschlägige Angaben klären.
+- [x] Wirtschafts-Identifikationsnummer DE413705673 vom Nutzer bestätigt und im Impressum eingetragen.
+- [ ] Vorhandensein einer separaten Umsatzsteuer-ID sowie gegebenenfalls weitere einschlägige Angaben klären. Die Wirtschafts-ID ist keine Bestätigung einer Umsatzsteuer-ID.
 - [x] Kammerzugehörigkeit und Berufsbezeichnung laut Nutzer bestätigt; Impressum weiterhin deutlich als Entwurf behandelt und mit eigener Beschreibung/noindex versehen.
 
 ## 4. Hosting und Datenschutz
@@ -53,9 +56,15 @@ Stand: 11.10.2026. Die lokalen Arbeitsschritte sind durchgeführt; Veröffentlic
 
 - [x] Host-Europe-Ablauf mit Dokumentwurzel, SFTP, Sicherung, Wiederherstellung, Testbereitstellung, Umschaltung und Rückfall konkretisiert: docs/ROLLOUT.md.
 - [x] Öffentlichen DNS-Zustand read-only erfasst: docs/dns-vor-rollout.json. MX und Nameserver dokumentiert; keine DNS-Änderung. Das ist kein vollständiger Zonenexport.
-- [ ] Vollständige Website- und Serverkonfigurationssicherung erstellen und Wiederherstellung in getrenntem Ziel prüfen; benötigt Hosting-Zugang. Gegebenenfalls Backend/Datenbanken sichern, falls vorgefunden.
-- [ ] Vollständige DNS-Zone einschließlich Mail-Einträgen sichern, E-Mail-Anbieter klären und bestehenden Mailbetrieb vor/nach Umschaltung prüfen lassen.
+- Entfällt auf ausdrückliche Nutzerentscheidung: zusätzliche Website-/Serverkonfigurationssicherung und Wiederherstellungstest. Kein Backup als durchgeführt markieren.
+- Entfällt auf Nutzerentscheidung: zusätzlicher vollständiger DNS-Zonenexport.
+- [ ] E-Mail-Anbieter klären und bestehenden Mailbetrieb vor/nach Umschaltung prüfen lassen; Mail- und DNS-Konfiguration erhalten.
 - [ ] Testbereitstellung ausdrücklich freigeben lassen; auf Zielhosting technische und rechtliche Endprüfung durchführen.
 - [ ] Geprüften Commit, Dateiliste, Weiterleitungen und Umschaltzeitpunkt vorlegen; ausdrückliche Produktionsfreigabe einholen. Danach umschalten, Funktionsprüfung durchführen und Rückfallbereitschaft erhalten.
 
 Keine Website veröffentlicht, keine Hosting-/DNS-Änderung und kein Push. Die offene Workspace-Datei schnitvisite_website.code-workspace bleibt unverändert.
+
+## Favicon und Zugangstest
+
+- [x] Nutzer meldet erfolgreiche Verbindung mit FileZilla. Konkretes Protokoll/TLS, Domainzuordnung und Serverkonfiguration sind damit noch nicht unabhängig geprüft.
+- [x] Vorhandene ICO-Datei unverändert nach `dist/favicon.ico` kopiert und als Tab-Icon auf allen vier HTML-Seiten eingebunden.
