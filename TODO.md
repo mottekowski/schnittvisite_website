@@ -68,3 +68,11 @@ Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Änderung und kein Push
 
 - [x] Nutzer meldet erfolgreiche Verbindung mit FileZilla. Konkretes Protokoll/TLS, Domainzuordnung und Serverkonfiguration sind damit noch nicht unabhängig geprüft.
 - [x] Vorhandene ICO-Datei unverändert nach `dist/favicon.ico` kopiert und als Tab-Icon auf allen vier HTML-Seiten eingebunden.
+
+## Cookie-Prüfung vom 11.10.2026
+
+- [x] Alle sieben aktiven Live-Dateien über HTTPS geprüft: HTTP 200, kein Set-Cookie-Header. Live-DOM der Cookie-Seite ohne Skripte, Frames oder externe Ressourcen; Quellcode ohne Tracking, Formulare, Cookies oder Web Storage.
+- [x] Cookie-Hinweise lokal aus dem Entwurfsmodus genommen; Beschreibung, Text und Footer-Verweise auf allen vier Seiten angepasst. noindex auf der Cookie-Seite entfernt.
+- [x] Datenschutztext auf tatsächlich betriebenes Host-Europe-Hosting aktualisiert und Cookie-Prüfung übernommen. Datenschutz bleibt Entwurf: Nutzer meldet AVV, E-Mail-Anbieter und Log-Einstellungen als unbekannt. Keine Angaben dazu erfunden.
+- [ ] Tatsächliche Hosting-/E-Mail-Verarbeitung bestätigen und Datenschutz anschließend fertigstellen. Nach Host-Europe-FAQ im KIS unter Produktverwaltung > WebHosting > Konfigurieren > Statistiken & Logfiles die Log-Konfiguration prüfen; Vertragsstatus separat bestätigen.
+- Änderungen dieser Prüfung sind lokal vorbereitet; noch nicht veröffentlicht oder gepusht.

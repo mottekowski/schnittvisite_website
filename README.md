@@ -71,3 +71,11 @@ Nach Nutzerfreigabe wurde die PNG-Fotovariante übernommen; auf der Startseite i
 Auf ausdrücklichen Nutzerauftrag wurden die sieben referenzierten Dateien aus Commit f1e9c33 auf den bisherigen Host-Europe-Webspace übertragen. Die vorhandene FileZilla-Verbindung wurde per FTPES mit Zertifikatsprüfung verwendet; keine Zugangsdaten in Projekt, Git oder zusätzlichen Dateien gespeichert. Beide Domainvarianten wurden vorab durch eine temporäre Testdatei der FTP-Dokumentwurzel zugeordnet; die Testdatei wurde entfernt. Der FTP-Zugang ist auf die Dokumentwurzel eingeschränkt, daher ist /www nicht als Unterverzeichnis erreichbar.
 
 Alle sieben veröffentlichten Dateien: HTTP 200, SHA-256 identisch zum lokalen Stand, kein Set-Cookie-Header beobachtet. Startseite im Browser bei 1280 und 390 Pixeln ohne horizontalen Überlauf; Foto geladen, Favicon verlinkt, Herrenpreisliste erfolgreich geöffnet. DNS und E-Mail-Konfiguration wurden nicht geändert; keine E-Mail-Testnachricht versandt. Zusätzliche Sicherung entfiel gemäß Nutzerentscheidung. Rechtliche Seiten bleiben sichtbar gekennzeichnete Entwürfe. Alte URL-Weiterleitungen, tatsächliche Hosting-/Datenschutzdetails und echte Geräteprüfungen bleiben offen.
+
+## Cookie-Prüfung vom 11.10.2026
+
+- [x] Alle sieben aktiven Live-Dateien über HTTPS geprüft: HTTP 200, kein Set-Cookie-Header. Live-DOM der Cookie-Seite ohne Skripte, Frames oder externe Ressourcen; Quellcode ohne Tracking, Formulare, Cookies oder Web Storage.
+- [x] Cookie-Hinweise lokal aus dem Entwurfsmodus genommen; Beschreibung, Text und Footer-Verweise auf allen vier Seiten angepasst. noindex auf der Cookie-Seite entfernt.
+- [x] Datenschutztext auf tatsächlich betriebenes Host-Europe-Hosting aktualisiert und Cookie-Prüfung übernommen. Datenschutz bleibt Entwurf: Nutzer meldet AVV, E-Mail-Anbieter und Log-Einstellungen als unbekannt. Keine Angaben dazu erfunden.
+- [ ] Tatsächliche Hosting-/E-Mail-Verarbeitung bestätigen und Datenschutz anschließend fertigstellen. Nach Host-Europe-FAQ im KIS unter Produktverwaltung > WebHosting > Konfigurieren > Statistiken & Logfiles die Log-Konfiguration prüfen; Vertragsstatus separat bestätigen.
+- Änderungen dieser Prüfung sind lokal vorbereitet; noch nicht veröffentlicht oder gepusht.
