@@ -76,3 +76,8 @@ Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Änderung und kein Push
 - [x] Datenschutztext auf tatsächlich betriebenes Host-Europe-Hosting aktualisiert und Cookie-Prüfung übernommen. Datenschutz bleibt Entwurf: Nutzer meldet AVV, E-Mail-Anbieter und Log-Einstellungen als unbekannt. Keine Angaben dazu erfunden.
 - [ ] Tatsächliche Hosting-/E-Mail-Verarbeitung bestätigen und Datenschutz anschließend fertigstellen. Nach Host-Europe-FAQ im KIS unter Produktverwaltung > WebHosting > Konfigurieren > Statistiken & Logfiles die Log-Konfiguration prüfen; Vertragsstatus separat bestätigen.
 - [x] Änderungen dieser Prüfung auf ausdrücklichen Deploy-Auftrag am 11.10.2026 veröffentlicht. Vier HTML-Dateien übertragen; alle sieben aktiven Dateien öffentlich per HTTPS/HTTP 200 und SHA-256 geprüft. Datenschutz weiterhin Entwurf. Noch kein Git-Push für diese Änderung.
+
+## Herrenpreise vom 11.10.2026
+
+- [x] Nutzertabelle übernommen: Cut & Leave 30 €, Waschen/Schnitt/Föhnen 35 €, Neuschnitt 45 €, Kopfmassage auf Anfrage, Färben/Tönen je 50 €, Kammsträhnen 45 €, Barttrimmen 20 €; alle Beträge mit vorgegebenem Zusatz „ab“.
+- [ ] Neue Herrenpreise nach ausdrücklichem Deploy-Auftrag veröffentlichen.
