@@ -62,7 +62,7 @@ Stand: 11.10.2026. Die Website wurde nach ausdrücklicher Nutzerfreigabe am 11.1
 - [ ] Testbereitstellung ausdrücklich freigeben lassen; auf Zielhosting technische und rechtliche Endprüfung durchführen.
 - [x] Produktionsfreigabe durch Nutzerauftrag zum Deployen erhalten. Sieben referenzierte Dateien aus Commit f1e9c33 veröffentlicht; alle öffentlich per HTTPS/HTTP 200 und SHA-256-Abgleich geprüft. DNS/E-Mail unverändert. Weiterleitungen sind weiterhin offen.
 
-Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Änderung und kein Push. Die offene Workspace-Datei schnitvisite_website.code-workspace bleibt unverändert.
+Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Konfigurationsänderung. Die offene Workspace-Datei schnitvisite_website.code-workspace bleibt unverändert.
 
 ## Favicon und Zugangstest
 
@@ -75,11 +75,21 @@ Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Änderung und kein Push
 - [x] Cookie-Hinweise lokal aus dem Entwurfsmodus genommen; Beschreibung, Text und Footer-Verweise auf allen vier Seiten angepasst. noindex auf der Cookie-Seite entfernt.
 - [x] Datenschutztext auf tatsächlich betriebenes Host-Europe-Hosting aktualisiert und Cookie-Prüfung übernommen. Datenschutz bleibt Entwurf: Nutzer meldet AVV, E-Mail-Anbieter und Log-Einstellungen als unbekannt. Keine Angaben dazu erfunden.
 - [ ] Tatsächliche Hosting-/E-Mail-Verarbeitung bestätigen und Datenschutz anschließend fertigstellen. Nach Host-Europe-FAQ im KIS unter Produktverwaltung > WebHosting > Konfigurieren > Statistiken & Logfiles die Log-Konfiguration prüfen; Vertragsstatus separat bestätigen.
-- [x] Änderungen dieser Prüfung auf ausdrücklichen Deploy-Auftrag am 11.10.2026 veröffentlicht. Vier HTML-Dateien übertragen; alle sieben aktiven Dateien öffentlich per HTTPS/HTTP 200 und SHA-256 geprüft. Datenschutz weiterhin Entwurf. Noch kein Git-Push für diese Änderung.
+- [x] Änderungen dieser Prüfung auf ausdrücklichen Deploy-Auftrag am 11.10.2026 veröffentlicht. Vier HTML-Dateien übertragen; alle sieben aktiven Dateien öffentlich per HTTPS/HTTP 200 und SHA-256 geprüft. Datenschutz weiterhin Entwurf.
 
 ## Herrenpreise vom 11.10.2026
 
 - [x] Nutzertabelle übernommen: Cut & Leave 30 €, Waschen/Schnitt/Föhnen 35 €, Neuschnitt 45 €, Kopfmassage auf Anfrage, Färben/Tönen je 50 €, Kammsträhnen 45 €, Barttrimmen 20 €; alle Beträge mit vorgegebenem Zusatz „ab“.
 - [x] Neue Herrenpreise nach ausdrücklichem Deploy-Auftrag am 11.10.2026 veröffentlicht. Beide Domainvarianten: HTTPS/HTTP 200, Datei per SHA-256 identisch und alle acht Herrenpreise korrekt.
 
-- [x] Ausfüllbare Datenschutz-Checkliste mit Angaben zu Hosting, AVV, Protokollen, E-Mail und eigenem Umgang erstellt: docs/DATENSCHUTZ-CHECKLISTE.md. Anbieter-Anfragevorlage vorbereitet; keine Nachricht versendet.
+- [x] Ausfüllbare Datenschutz-Checkliste mit Angaben zu Hosting, AVV, Protokollen, E-Mail und eigenem Umgang erstellt: docs/DATENSCHUTZ-CHECKLISTE.md. Anbieter-Anfragevorlage vorbereitet und am 11.10.2026 auf Nutzerauftrag per E-Mail versendet.
+
+## Datenschutz-Anfrage an Host Europe
+
+- [x] Am 11.10.2026 auf ausdrücklichen Nutzerauftrag von christophmzink@gmail.com an support@hosteurope.de gesendet. Betreff: „Datenschutzangaben für schnittvisite.com – WebHosting 2016 Basic“. Versand durch Gmail mit Status SENT bestätigt.
+- [ ] Antwort von Host Europe auswerten: Hosting-Vertragspartner, bestätigter AVV, Protokolldaten und Löschfristen, IP-Anonymisierung, Verarbeitungs-/Supportländer, Unterauftragnehmer und mögliche Drittlandübermittlungen, zusätzliche Dienste sowie Sicherungen. E-Mail-Verarbeitung wurde ebenfalls angefragt, sofern Host Europe das Postfach bereitstellt.
+- [ ] Falls Host Europe eine Anfrage im KIS oder Legitimation verlangt, diese über den vom Anbieter genannten Weg erledigen; keine Zugangsdaten im Projekt speichern.
+- [ ] Antworten in docs/DATENSCHUTZ-CHECKLISTE.md übernehmen; eigene Kontakt-/Terminverarbeitung und Löschpraxis ergänzen. Bestätigte Angaben für die Datenschutzerklärung verwenden, verbleibende Lücken offenhalten.
+- [ ] Datenschutzerklärung danach abschließend überarbeiten und prüfen. Veröffentlichung erst nach ausdrücklichem Deploy-Auftrag.
+
+Status: Anfrage versendet, Antwort noch nicht ausgewertet. Kein automatisches Überwachen des Postfachs eingerichtet.
