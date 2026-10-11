@@ -50,3 +50,9 @@ Am 11.10.2026 hat der Nutzer die zusätzliche Sicherung der alten Website und Se
 Diese Dokumentation bestätigt keine konkrete Log-Aufbewahrungsdauer, keinen abgeschlossenen AVV und keinen tatsächlichen Serverstandort des gebuchten Pakets.
 
 [Host Europe: SFTP und FTPES](https://www.hosteurope.de/faq/webhosting/hochladen-von-webinhalten-ftp/ftp-verschluesselt-uebertragen): SFTP verwendet den SSH-Zugang; FTPES ist die TLS-verschlüsselte FTP-Variante. Die richtige Verbindung für dieses Paket muss anhand des Kundenportals geprüft werden.
+
+## Veröffentlichung am 11.10.2026
+
+Auf ausdrücklichen Nutzerauftrag wurden die sieben referenzierten Dateien aus Commit f1e9c33 auf den bisherigen Host-Europe-Webspace übertragen. Die vorhandene FileZilla-Verbindung wurde per FTPES mit Zertifikatsprüfung verwendet; keine Zugangsdaten in Projekt, Git oder zusätzlichen Dateien gespeichert. Beide Domainvarianten wurden vorab durch eine temporäre Testdatei der FTP-Dokumentwurzel zugeordnet; die Testdatei wurde entfernt. Der FTP-Zugang ist auf die Dokumentwurzel eingeschränkt, daher ist /www nicht als Unterverzeichnis erreichbar.
+
+Alle sieben veröffentlichten Dateien: HTTP 200, SHA-256 identisch zum lokalen Stand, kein Set-Cookie-Header beobachtet. Startseite im Browser bei 1280 und 390 Pixeln ohne horizontalen Überlauf; Foto geladen, Favicon verlinkt, Herrenpreisliste erfolgreich geöffnet. DNS und E-Mail-Konfiguration wurden nicht geändert; keine E-Mail-Testnachricht versandt. Zusätzliche Sicherung entfiel gemäß Nutzerentscheidung. Rechtliche Seiten bleiben sichtbar gekennzeichnete Entwürfe. Alte URL-Weiterleitungen, tatsächliche Hosting-/Datenschutzdetails und echte Geräteprüfungen bleiben offen.

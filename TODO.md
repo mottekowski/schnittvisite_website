@@ -1,6 +1,6 @@
 # Offene Punkte und Entscheidungen
 
-Stand: 11.10.2026. Die lokalen Arbeitsschritte sind durchgeführt; Veröffentlichung bleibt gesperrt bis zur ausdrücklichen Freigabe und Klärung der offenen Angaben.
+Stand: 11.10.2026. Die Website wurde nach ausdrücklicher Nutzerfreigabe am 11.10.2026 auf dem bestehenden Host-Europe-Webspace veröffentlicht. Rechtliche Entwürfe und weitere unten genannte Punkte bleiben offen.
 
 ## Erledigte Grundlage
 
@@ -39,7 +39,7 @@ Stand: 11.10.2026. Die lokalen Arbeitsschritte sind durchgeführt; Veröffentlic
 ## 4. Hosting und Datenschutz
 
 - [x] Paket „WebHosting Basic [WebHosting 2016 Basic]“ und Webspace-Pfad `/www` vom Nutzer angegeben. Serveradresse liegt im Chat vor; keine Verbindungsdaten in Projektdateien gespeichert.
-- [ ] Domainzuordnung zu `/www`, Webserver und verschlüsseltes Übertragungsprotokoll/Port prüfen. Zunächst SFTP, zuletzt FTP genannt; FTP- und SSH/SFTP-Zugang nicht gleichsetzen. Sicheren Zugang außerhalb von Projekt/Git/OneDrive bereitstellen.
+- [x] FTPES mit Zertifikatsprüfung und Domainzuordnung bestätigt: kurzzeitige Testdatei unter beiden Domainvarianten erreichbar und wieder entfernt. Der FTP-Zugang zeigt direkt die Dokumentwurzel; /www ist darin kein Unterverzeichnis. Zugang aus der vorhandenen FileZilla-Konfiguration ausschließlich im Prozessspeicher genutzt.
 - [ ] Paketkonfiguration prüfen: Log-Datenarten/Fristen, Verarbeitungsort, AVV, Unterauftragnehmer, mögliche Drittlandübermittlungen, Cookie-/Speicherzugriffe und E-Mail-Anbieter. Öffentliche Provider-Dokumentation belegt keine individuellen Einstellungen.
 - [x] Eigene Datenschutzseite mit Cookie-Abschnitt als gekennzeichneten Entwurf vorbereitet und im Footer verlinkt; alten Datenschutzlink ersetzt. Keine Speicherfristen oder abgeschlossenen Verträge erfunden.
 - [x] Cookie-Hinweise verlinkt. Lokal keine Set-Cookie-Header beobachtet; Website-Code enthält keine Skripte, Analysewerkzeuge, Formulare oder Browser-Speicherung. Keine Aussage über ungeprüftes Zielhosting.
@@ -60,9 +60,9 @@ Stand: 11.10.2026. Die lokalen Arbeitsschritte sind durchgeführt; Veröffentlic
 - Entfällt auf Nutzerentscheidung: zusätzlicher vollständiger DNS-Zonenexport.
 - [ ] E-Mail-Anbieter klären und bestehenden Mailbetrieb vor/nach Umschaltung prüfen lassen; Mail- und DNS-Konfiguration erhalten.
 - [ ] Testbereitstellung ausdrücklich freigeben lassen; auf Zielhosting technische und rechtliche Endprüfung durchführen.
-- [ ] Geprüften Commit, Dateiliste, Weiterleitungen und Umschaltzeitpunkt vorlegen; ausdrückliche Produktionsfreigabe einholen. Danach umschalten, Funktionsprüfung durchführen und Rückfallbereitschaft erhalten.
+- [x] Produktionsfreigabe durch Nutzerauftrag zum Deployen erhalten. Sieben referenzierte Dateien aus Commit f1e9c33 veröffentlicht; alle öffentlich per HTTPS/HTTP 200 und SHA-256-Abgleich geprüft. DNS/E-Mail unverändert. Weiterleitungen sind weiterhin offen.
 
-Keine Website veröffentlicht, keine Hosting-/DNS-Änderung und kein Push. Die offene Workspace-Datei schnitvisite_website.code-workspace bleibt unverändert.
+Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Änderung und kein Push. Die offene Workspace-Datei schnitvisite_website.code-workspace bleibt unverändert.
 
 ## Favicon und Zugangstest
 

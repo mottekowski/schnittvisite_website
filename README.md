@@ -65,3 +65,9 @@ Nach Nutzerfreigabe wurde die PNG-Fotovariante übernommen; auf der Startseite i
 ## Favicon
 
 `dist/favicon.ico` ist das vom Nutzer bereitgestellte Original-Icon und auf allen vier HTML-Seiten als Tab-Symbol verlinkt. Bei Veröffentlichung zusammen mit den übrigen referenzierten Dateien ausliefern.
+
+## Veröffentlichung am 11.10.2026
+
+Auf ausdrücklichen Nutzerauftrag wurden die sieben referenzierten Dateien aus Commit f1e9c33 auf den bisherigen Host-Europe-Webspace übertragen. Die vorhandene FileZilla-Verbindung wurde per FTPES mit Zertifikatsprüfung verwendet; keine Zugangsdaten in Projekt, Git oder zusätzlichen Dateien gespeichert. Beide Domainvarianten wurden vorab durch eine temporäre Testdatei der FTP-Dokumentwurzel zugeordnet; die Testdatei wurde entfernt. Der FTP-Zugang ist auf die Dokumentwurzel eingeschränkt, daher ist /www nicht als Unterverzeichnis erreichbar.
+
+Alle sieben veröffentlichten Dateien: HTTP 200, SHA-256 identisch zum lokalen Stand, kein Set-Cookie-Header beobachtet. Startseite im Browser bei 1280 und 390 Pixeln ohne horizontalen Überlauf; Foto geladen, Favicon verlinkt, Herrenpreisliste erfolgreich geöffnet. DNS und E-Mail-Konfiguration wurden nicht geändert; keine E-Mail-Testnachricht versandt. Zusätzliche Sicherung entfiel gemäß Nutzerentscheidung. Rechtliche Seiten bleiben sichtbar gekennzeichnete Entwürfe. Alte URL-Weiterleitungen, tatsächliche Hosting-/Datenschutzdetails und echte Geräteprüfungen bleiben offen.
