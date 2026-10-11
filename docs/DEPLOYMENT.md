@@ -24,3 +24,7 @@ Offen: rechtliche Entwürfe, alte URL-Weiterleitungen, Hostingdetails, echte Ger
 ## Aktualisierung vom 11.10.2026: Cookie-Hinweise
 
 Auf ausdrücklichen Auftrag zum Deployen wurden die vier geänderten HTML-Dateien aus Commit 9d4c3fd per FTPES mit Zertifikatsprüfung veröffentlicht. Cookie-Hinweise ohne Entwurfskennzeichnung, Datenschutz weiterhin mit offenen Betriebsangaben als Entwurf. Alle sieben aktiven Website-Dateien öffentlich per HTTPS geprüft: HTTP 200, SHA-256 identisch mit dem lokalen Stand, kein Set-Cookie-Header. Beide Domainvarianten erreichbar. DNS und E-Mail-Konfiguration unverändert. Kein Git-Push ausgeführt.
+
+## Aktualisierung vom 11.10.2026: Herrenpreise
+
+Auf ausdrücklichen Deploy-Auftrag index.html aus Commit 025f4b9 per FTPES mit Zertifikatsprüfung veröffentlicht. Beide HTTPS-Domainvarianten liefern HTTP 200 und die zum lokalen Stand SHA-256-identische Startseite. Alle acht Einträge der Herrenpreisliste stimmen mit der Nutzertabelle überein. DNS und E-Mail-Konfiguration unverändert. Kein Git-Push.
