@@ -75,4 +75,4 @@ Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Änderung und kein Push
 - [x] Cookie-Hinweise lokal aus dem Entwurfsmodus genommen; Beschreibung, Text und Footer-Verweise auf allen vier Seiten angepasst. noindex auf der Cookie-Seite entfernt.
 - [x] Datenschutztext auf tatsächlich betriebenes Host-Europe-Hosting aktualisiert und Cookie-Prüfung übernommen. Datenschutz bleibt Entwurf: Nutzer meldet AVV, E-Mail-Anbieter und Log-Einstellungen als unbekannt. Keine Angaben dazu erfunden.
 - [ ] Tatsächliche Hosting-/E-Mail-Verarbeitung bestätigen und Datenschutz anschließend fertigstellen. Nach Host-Europe-FAQ im KIS unter Produktverwaltung > WebHosting > Konfigurieren > Statistiken & Logfiles die Log-Konfiguration prüfen; Vertragsstatus separat bestätigen.
-- Änderungen dieser Prüfung sind lokal vorbereitet; noch nicht veröffentlicht oder gepusht.
+- [x] Änderungen dieser Prüfung auf ausdrücklichen Deploy-Auftrag am 11.10.2026 veröffentlicht. Vier HTML-Dateien übertragen; alle sieben aktiven Dateien öffentlich per HTTPS/HTTP 200 und SHA-256 geprüft. Datenschutz weiterhin Entwurf. Noch kein Git-Push für diese Änderung.

@@ -20,3 +20,7 @@ Offen: rechtliche Entwürfe, alte URL-Weiterleitungen, Hostingdetails, echte Ger
 | style.css | 2CD75B7DAC6EF23F43318EF8CDCBD40F5D1E59CEB5CBAD89C181C0BA7E5C60EC |
 | favicon.ico | 8BA0BFD36C648016B8103D5E154848AFE86779D91A02D9F8E72FDCF107260349 |
 | assets/gaby-entspannt.webp | E8DC77EA8F3933AE43C51DB3F28D97D15887EBFA7F6481122E4E915322A59A16 |
+
+## Aktualisierung vom 11.10.2026: Cookie-Hinweise
+
+Auf ausdrücklichen Auftrag zum Deployen wurden die vier geänderten HTML-Dateien aus Commit 9d4c3fd per FTPES mit Zertifikatsprüfung veröffentlicht. Cookie-Hinweise ohne Entwurfskennzeichnung, Datenschutz weiterhin mit offenen Betriebsangaben als Entwurf. Alle sieben aktiven Website-Dateien öffentlich per HTTPS geprüft: HTTP 200, SHA-256 identisch mit dem lokalen Stand, kein Set-Cookie-Header. Beide Domainvarianten erreichbar. DNS und E-Mail-Konfiguration unverändert. Kein Git-Push ausgeführt.

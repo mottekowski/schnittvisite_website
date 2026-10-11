@@ -19,3 +19,7 @@ Cookie-Hinweise können ohne Entwurfskennzeichnung vorbereitet werden. Die Daten
 - https://www.hosteurope.de/faq/vertrag-und-rechnungen/vertrag/adv-vertrag : Abschluss eines AVV erfordert das dort beschriebene Verfahren und Bestätigung; aus einem FTP-Zugang folgt kein Vertragsnachweis.
 - https://www.gesetze-im-internet.de/ttdsg/__25.html : TDDDG § 25, Speicherung/Zugriff auf Endgeräte.
 - https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679 : DSGVO, insbesondere Informationspflichten nach Art. 13.
+
+## Aktualisierung vom 11.10.2026: Cookie-Hinweise
+
+Auf ausdrücklichen Auftrag zum Deployen wurden die vier geänderten HTML-Dateien aus Commit 9d4c3fd per FTPES mit Zertifikatsprüfung veröffentlicht. Cookie-Hinweise ohne Entwurfskennzeichnung, Datenschutz weiterhin mit offenen Betriebsangaben als Entwurf. Alle sieben aktiven Website-Dateien öffentlich per HTTPS geprüft: HTTP 200, SHA-256 identisch mit dem lokalen Stand, kein Set-Cookie-Header. Beide Domainvarianten erreichbar. DNS und E-Mail-Konfiguration unverändert. Kein Git-Push ausgeführt.
