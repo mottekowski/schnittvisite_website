@@ -30,7 +30,7 @@ Stand: 17.10.2026. Die Website wurde nach ausdrücklicher Nutzerfreigabe am 11.1
 ## 2. Inhalt bestätigen
 
 - [x] Nutzer bestätigt Host Europe, Zugangsart SFTP, Handwerkskammer zu Köln, Friseurmeisterin sowie Goldwell und Alterna. Beide Produktmarken sind genannt.
-- [x] Nutzer bestätigt Telefon 0174 / 344 76 77, gaby@schnittvisite.com, Bonn und Umgebung, Friseurmeisterin seit 2009, Fotoverwendungsrechte sowie aktuelle Herren-/Kinder-/Zusatzpreise. Damenpreise und geänderte Terminzeiten wurden bereits ausdrücklich vorgegeben.
+- [x] Nutzer bestätigt Telefon 0174 / 344 76 77, <gaby@schnittvisite.com>, Bonn und Umgebung, Friseurmeisterin seit 2009, Fotoverwendungsrechte sowie aktuelle Herren-/Kinder-/Zusatzpreise. Damenpreise und geänderte Terminzeiten wurden bereits ausdrücklich vorgegeben.
 - [x] Preise einschließlich Mehrwertsteuer vom Nutzer bestätigt.
 - [x] Preisformulierungen „ab … bis …“ vom Nutzer ausdrücklich bestätigt.
 
@@ -93,7 +93,7 @@ Website am 11.10.2026 veröffentlicht; keine DNS-/E-Mail-Konfigurationsänderung
 
 ## Datenschutz-Anfrage an Host Europe
 
-- [x] Am 11.10.2026 auf ausdrücklichen Nutzerauftrag von christophmzink@gmail.com an support@hosteurope.de gesendet. Betreff: „Datenschutzangaben für schnittvisite.com – WebHosting 2016 Basic“. Versand durch Gmail mit Status SENT bestätigt.
+- [x] Am 11.10.2026 auf ausdrücklichen Nutzerauftrag von <christophmzink@gmail.com> an <support@hosteurope.de> gesendet. Betreff: „Datenschutzangaben für schnittvisite.com – WebHosting 2016 Basic“. Versand durch Gmail mit Status SENT bestätigt.
 - [ ] Antwort von Host Europe auswerten: Hosting-Vertragspartner, bestätigter AVV, Protokolldaten und Löschfristen, IP-Anonymisierung, Verarbeitungs-/Supportländer, Unterauftragnehmer und mögliche Drittlandübermittlungen, zusätzliche Dienste sowie Sicherungen. E-Mail-Verarbeitung wurde ebenfalls angefragt, sofern Host Europe das Postfach bereitstellt.
 - [ ] Falls Host Europe eine Anfrage im KIS oder Legitimation verlangt, diese über den vom Anbieter genannten Weg erledigen; keine Zugangsdaten im Projekt speichern.
 - [ ] Antworten in docs/DATENSCHUTZ-CHECKLISTE.md übernehmen; eigene Kontakt-/Terminverarbeitung und Löschpraxis ergänzen. Bestätigte Angaben für die Datenschutzerklärung verwenden, verbleibende Lücken offenhalten.
