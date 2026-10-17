@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^cookie-hinweise\.html$ /datenschutz.html [R=301,L]

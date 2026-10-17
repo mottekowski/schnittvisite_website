@@ -1,6 +1,13 @@
 # Offene Punkte und Entscheidungen
 
-Stand: 11.10.2026. Die Website wurde nach ausdrücklicher Nutzerfreigabe am 11.10.2026 auf dem bestehenden Host-Europe-Webspace veröffentlicht. Rechtliche Entwürfe und weitere unten genannte Punkte bleiben offen.
+Stand: 17.10.2026. Die Website wurde nach ausdrücklicher Nutzerfreigabe am 11.10.2026 auf dem bestehenden Host-Europe-Webspace veröffentlicht. Die Datenschutzerklärung wurde lokal finalisiert; die noch nicht veröffentlichten Datenschutzänderungen und weitere unten genannte Punkte bleiben offen.
+
+## Datenschutz-Finalisierung vom 17.10.2026
+
+- [x] Datenschutzerklärung mit den bestätigten Angaben zu Hosting, Protokollierung, Kontaktverarbeitung, Cookies/externalen Diensten und Betroffenenrechten finalisiert; Entwurfsvermerke entfernt.
+- [x] Separate Cookie-Seite und Footer-Verweise lokal entfernt; 301-Weiterleitung auf `/datenschutz.html` für Apache/Host Europe WebHosting Basic vorbereitet.
+- [x] Eigener Quellcode und die aktuellen Live-Antworten erneut auf Cookies, Web Storage, Tracking, externe Ressourcen und interne Verweise geprüft; Details: docs/DATENSCHUTZ-PRUEFUNG-2026-10-17.md.
+- [ ] Die drei geänderten HTML-Dateien, die Entfernung der Cookie-Seite und `dist/.htaccess` erst nach ausdrücklicher Deploy-Freigabe direkt per sicherem SFTP übertragen und die tatsächliche 301-Antwort prüfen. Keine FileZilla-Fernsteuerung nutzen.
 
 ## Erledigte Grundlage
 

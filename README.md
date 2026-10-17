@@ -5,7 +5,7 @@ Statische HTML/CSS-Website, ursprünglich erstellt am 15.09.2026. Am 11.10.2026 
 - Arbeitsverzeichnis: `C:\Users\chzin\OneDrive - Schnittvisite\SV\Website`
 - Bisherige Website: https://www.schnittvisite.com
 - Ausgangsversion in Sites: https://schnittvisite-gaby.mottekowski.chatgpt.site (Zugriff laut Sites auf Eigentümer beschränkt)
-- Aktuelle Dateien: `dist/index.html`, `dist/impressum.html`, `dist/datenschutz.html`, `dist/cookie-hinweise.html`, `dist/style.css`, `dist/assets/gaby-entspannt.webp`. Originalfoto und PNG-Variante bleiben zur Nachvollziehbarkeit erhalten.
+- Aktuelle Dateien: `dist/index.html`, `dist/impressum.html`, `dist/datenschutz.html`, `dist/style.css`, `dist/.htaccess`, `dist/assets/gaby-entspannt.webp`. Originalfoto und PNG-Variante bleiben zur Nachvollziehbarkeit erhalten.
 - Importierter Ausgangscommit: `9d39f06c3bba36683ffec60a0362e41f24188fd0`
 - `.openai/hosting.json` ordnet den bestehenden Sites-Eintrag zu; es ist keine Konfiguration des bisherigen Hosting-Anbieters.
 
@@ -56,7 +56,11 @@ Nach Nutzerfreigabe wurde die PNG-Fotovariante übernommen; auf der Startseite i
 
 ## Cookie-Hinweise
 
-`dist/cookie-hinweise.html` enthält einen verlinkten Entwurf zu Cookies und ähnlichen Technologien. Der eigene Code nutzt keine Cookies, Analysewerkzeuge oder Browser-Speicherung. Das endgültige Hosting ist noch zu prüfen; deshalb ist dies keine fertige Datenschutzerklärung. Es wurde kein Einwilligungsbanner ergänzt. Die Entwurfsseite enthält `noindex`, das bei einer späteren Finalisierung erneut zu beurteilen ist.
+Die Cookie-Informationen sind Bestandteil der Datenschutzerklärung. Die separate Cookie-Seite ist lokal entfernt; `dist/.htaccess` bereitet ihre permanente Weiterleitung auf `/datenschutz.html` für das Zielhosting vor. Der eigene Code nutzt keine Cookies, Analysewerkzeuge oder Browser-Speicherung. Es wurde kein Einwilligungsbanner ergänzt.
+
+## Datenschutz-Finalisierung vom 17.10.2026
+
+Die Datenschutzerklärung wurde anhand der vom Nutzer freigegebenen Hosting-, Protokollierungs- und Kontaktangaben finalisiert. Die separate Cookie-Seite wurde lokal entfernt; eine auf Host Europe WebHosting Basic zugeschnittene 301-Weiterleitung auf `/datenschutz.html` ist für den späteren Deploy vorbereitet. Die technische Prüfung ist in `docs/DATENSCHUTZ-PRUEFUNG-2026-10-17.md` dokumentiert. Kein Deployment wurde für diese Änderung ausgeführt.
 
 ## Prüfstand und Veröffentlichung
 
