@@ -1,6 +1,6 @@
 # Weiterleitungen: lokaler Implementierungsstand
 
-Stand: 19.10.2026. Die Regeln sind lokal in `dist/.htaccess` vorbereitet, aber noch nicht auf den Webserver übertragen oder auf einem Testziel geprüft.
+Stand: 19.10.2026. Die Regeln wurden per FTPES auf den Webserver übertragen und direkt über die öffentlichen HTTPS-Antworten auf Status, Location und Zielanker geprüft.
 
 Über alle gefundenen internen HTML-Links der alten Startseite wurden 11 URLs erreicht und mit HTTP 200 geprüft. Details: `alte-urls.json`. Unverlinkte Seiten, Suchmaschinen-URLs und Serverdateien können nur mit Hosting-Dateiliste und gegebenenfalls Suchkonsole/Zugriffsprotokollen vollständig erfasst werden.
 
