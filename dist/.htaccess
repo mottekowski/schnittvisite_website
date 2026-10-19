@@ -1,2 +1,20 @@
 RewriteEngine On
+
+# Canonical public URL: HTTPS with www. Query strings are retained by Apache.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.schnittvisite\.com$ [NC]
+RewriteRule ^ https://www.schnittvisite.com%{REQUEST_URI} [R=301,L,NE]
+
+# The duplicate home-page filename and former content URLs retain their
+# closest relevant destinations. Do not redirect removed extensions service.
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^phil\.html$ /#gaby [R=301,L,NE]
+RewriteRule ^d\.html$ /#preise-damen [R=301,L,NE]
+RewriteRule ^h\.html$ /#preise-herren [R=301,L,NE]
+RewriteRule ^k\.html$ /#preise-kinder [R=301,L,NE]
+RewriteRule ^div\.html$ /#preise-extra [R=301,L,NE]
+RewriteRule ^s-b\.html$ /#farbe-balayage [R=301,L,NE]
+RewriteRule ^braut\.html$ /#brautfrisuren [R=301,L,NE]
+RewriteRule ^dgsvo\.html$ /datenschutz.html [R=301,L]
 RewriteRule ^cookie-hinweise\.html$ /datenschutz.html [R=301,L]
+RewriteRule ^hvl\.html$ - [G,L]
